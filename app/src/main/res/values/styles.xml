@@ -1,11 +1,17 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- API Level 22 编译要去掉android -->
+        <item name="windowNoTitle">true</item>
+        <!-- Actionbar color -->
         <item name="colorPrimary">@color/colorPrimary</item>
+        <!--Status bar color-->
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--Window color-->
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
 </resources>
