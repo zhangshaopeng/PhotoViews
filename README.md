@@ -1,6 +1,6 @@
 # PhotoViews
 仿微信朋友圈图片 
-![image](https://github.com/zhangshaopeng/PhotoViews/blob/master/picture.jpg)
+![image](https://github.com/zhangshaopeng/PhotoViews/blob/master/picture.gif)
 
 已更新到1.0版本，添加依赖时请注意版本号：
 
